@@ -1,0 +1,202 @@
+@media screen and (min-width: 320px) {
+    html {
+        font-size: calc(320 / 750 * 100px);
+    }
+}
+
+@media screen and (min-width: 360px) {
+    html {
+        font-size: calc(360 / 750 * 100px);
+    }
+}
+
+@media screen and (min-width: 375px) {
+    html {
+        font-size: calc(375 / 750 * 100px);
+    }
+}
+
+@media screen and (min-width: 414px) {
+    html {
+        font-size: calc(414 / 750 * 100px);
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+.body {
+    font-size: 12px;
+}
+
+.title-bar {
+    width: 100%;
+    height: 0.88rem;
+    line-height: 0.88rem;
+    font-size: 0.33rem;
+    font-weight: bold;
+    letter-spacing: 0.04rem;
+    text-align: center;
+    position: relative;
+}
+
+.title-bar .back {
+    color: #007aff;
+    padding-left: 0.5rem;
+    background: url(IMG_0024_03.png) no-repeat left center / 0.42rem;
+    position: absolute;
+    left: 0.2rem;
+    top: 0;
+    font-size: 0.32rem;
+    font-weight: normal;
+}
+
+.search-box {
+    width: 100%;
+    height: 0.73rem;
+    margin-bottom: .3rem;
+}
+
+.search-box .search {
+    display: block;
+    margin: 0 auto;
+    width: 6.86rem;
+    height: 0.72rem;
+    border-radius: .26rem;
+    background: #e4e4e6 url(search.png) no-repeat .16rem center / .30rem;
+    padding-left: .6rem;
+}
+
+.province-title {
+    width: 100%;
+    height: 0.78rem;
+    border-top: 1px solid #ababab;
+    border-bottom: 1px solid #ababab;
+    padding-left: 0.3rem;
+    /*padding-top: 0.25rem;*/
+    line-height: 0.78rem;
+    font-size: 12px;
+}
+
+@media screen and (min-device-pixel-ratio: 2),(-webkit-device-pixel-ratio: 2) {
+    .province-title {
+        border-width: 0.5px;
+    }
+}
+
+@media screen and (min-device-pixel-ratio: 3),(-webkit-device-pixel-ratio: 3) {
+    .province-title {
+        border-width: 0.33px;
+    }
+}
+
+.address-title {
+    width: 100%;
+    height: auto;
+}
+
+.address-title li {
+    width: 6.9rem;
+    height: 2.53rem;
+    border-bottom: 1px solid #c8c7cc;
+    margin: 0 auto;
+}
+
+.address-title li a {
+    display: block;
+    padding-top: 0.48rem;
+}
+
+.address-title .pic {
+    width: 2rem;
+    height: 1.56rem;
+    float: left;
+}
+
+.address-title .pic img {
+    display: block;
+    width: 2rem;
+    height: 1.58rem;
+}
+
+.address-title .info {
+    float: left;
+    height: 1.56rem;
+    padding-left: .34rem;
+}
+
+.address-title .name {
+    font-size: 14px;
+    line-height: 0.64rem;
+    font-weight: 500;
+    color: #000;
+}
+
+.address-title .province {
+    color: #000;
+    font-size: 11px;
+    line-height: .4rem;
+}
+
+.address-title .time {
+    color: #000;
+    font-size: 11px;
+    line-height: .36rem;
+}
+
+.address-title .icon {
+    width: .28rem;
+    height: .3rem;
+    background: url(IMG_0024_19.png) no-repeat;
+    background-size: contain;
+    float: right;
+    margin-top: .64rem;
+}
+
+.index{
+    position:fixed;
+    top:3.27rem;
+    right: 0px;
+}
+
+.index li{
+    width :.3rem;
+    height: .3rem;
+    text-align: center;
+    font-size: 15px;
+    color: #007aff;
+}
+
+.tabbar{
+    width:100% ;
+    height: .99rem;
+    background: #f4f5f5;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+}
+.tabbar li {
+    width: .9rem;
+    height: .99rem;
+
+}
+
+.tabbar .pic{
+    height: .6rem;
+    font-family: iconfont;
+}
+
+.tabbar .title{
+
+}
+
+/*iconfont 引入字体*/
